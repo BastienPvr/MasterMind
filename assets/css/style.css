@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.old{
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    float: left;
+    border: solid 1px black
+}
+
+.step, .hintpath{
+    width: 200px;
+    height: 60px;
+    border-top: solid 1px black
+}
+
+#step1, #hint1{
+    border-top: none
+}
+
+.hint{
+    width: 200px;
+    height: 300px;
+    margin-left: 220px;
+    border: solid 1px black
+}
+
+.try{
+    padding: 20px;
+    display: inline-block
+}
+
+.blue, .red, .yellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 2px black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.blue{background-color: blue}
+.red{background-color: red}
+.yellow{background-color: yellow}
+
+button{
+    width: 70px;
+    height: 50px;
+}
